@@ -1,0 +1,6 @@
+framework module Pods_ZZCMacroDefine_Example {
+  umbrella header "Pods-ZZCMacroDefine_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

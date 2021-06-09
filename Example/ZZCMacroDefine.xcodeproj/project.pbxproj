@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E97B24EDA986EC131F75E81 /* Pods_ZZCMacroDefine_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D869D86E1CE847FE8F3AA258 /* Pods_ZZCMacroDefine_Tests.framework */; };
+		329998F62670AE7500C5B36E /* ZZCViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 329998F52670AE7500C5B36E /* ZZCViewController2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,9 +39,11 @@
 
 /* Begin PBXFileReference section */
 		1B01AD1455162E0BC514B295 /* Pods-ZZCMacroDefine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCMacroDefine_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZZCMacroDefine_Example/Pods-ZZCMacroDefine_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3EE8DCDDD9DBBCBF40A8CA06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		329998F42670AE7500C5B36E /* ZZCViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCViewController2.h; sourceTree = "<group>"; };
+		329998F52670AE7500C5B36E /* ZZCViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCViewController2.m; sourceTree = "<group>"; };
+		3EE8DCDDD9DBBCBF40A8CA06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		445032A2B323ADA61D504794 /* Pods-ZZCMacroDefine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCMacroDefine_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZCMacroDefine_Example/Pods-ZZCMacroDefine_Example.release.xcconfig"; sourceTree = "<group>"; };
-		477954C063372B3CE8488481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		477954C063372B3CE8488481 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZZCMacroDefine_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZCMacroDefine_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +68,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D869D86E1CE847FE8F3AA258 /* Pods_ZZCMacroDefine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCMacroDefine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25FF7DF1D244E0E75C7CF6A /* Pods-ZZCMacroDefine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZCMacroDefine_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZZCMacroDefine_Tests/Pods-ZZCMacroDefine_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FA1C18B1AAA7F2AE924405DB /* ZZCMacroDefine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZCMacroDefine.podspec; path = ../ZZCMacroDefine.podspec; sourceTree = "<group>"; };
+		FA1C18B1AAA7F2AE924405DB /* ZZCMacroDefine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZCMacroDefine.podspec; path = ../ZZCMacroDefine.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC20CB5A597DACB3E001BF7A /* Pods_ZZCMacroDefine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZCMacroDefine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZZCViewController.h */,
 				6003F5A6195388D20070C39A /* ZZCViewController.m */,
+				329998F42670AE7500C5B36E /* ZZCViewController2.h */,
+				329998F52670AE7500C5B36E /* ZZCViewController2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				6307E404E142C141B46B2764 /* Pods-ZZCMacroDefine_Tests.debug.xcconfig */,
 				E25FF7DF1D244E0E75C7CF6A /* Pods-ZZCMacroDefine_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				CDAB6B6E2A9CC2DADBB028B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhengzhicheng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = H6DAB567D4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,24 +324,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CDAB6B6E2A9CC2DADBB028B1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZZCMacroDefine_Example/Pods-ZZCMacroDefine_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZZCMacroDefine/ZZCMacroDefine.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZZCMacroDefine.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZZCMacroDefine_Example/Pods-ZZCMacroDefine_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CE450F417EA87DDF4B279A3A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +356,7 @@
 				6003F59E195388D20070C39A /* ZZCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZZCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				329998F62670AE7500C5B36E /* ZZCViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +484,7 @@
 			baseConfigurationReference = 1B01AD1455162E0BC514B295 /* Pods-ZZCMacroDefine_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6DAB567D4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZCMacroDefine/ZZCMacroDefine-Prefix.pch";
 				INFOPLIST_FILE = "ZZCMacroDefine/ZZCMacroDefine-Info.plist";
@@ -510,6 +501,7 @@
 			baseConfigurationReference = 445032A2B323ADA61D504794 /* Pods-ZZCMacroDefine_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6DAB567D4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZZCMacroDefine/ZZCMacroDefine-Prefix.pch";
 				INFOPLIST_FILE = "ZZCMacroDefine/ZZCMacroDefine-Info.plist";

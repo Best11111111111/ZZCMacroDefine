@@ -1,0 +1,6 @@
+framework module ZZCMacroDefine {
+  umbrella header "ZZCMacroDefine-umbrella.h"
+
+  export *
+  module * { export * }
+}

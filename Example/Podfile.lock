@@ -1,0 +1,16 @@
+PODS:
+  - ZZCMacroDefine (0.1.0)
+
+DEPENDENCIES:
+  - ZZCMacroDefine (from `../`)
+
+EXTERNAL SOURCES:
+  ZZCMacroDefine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZCMacroDefine: 21943a90680b4c1eb0caf6e6a9473b2805b1e396
+
+PODFILE CHECKSUM: 2d045934d7e2e18aa27078ce94431c532378487e
+
+COCOAPODS: 1.10.1

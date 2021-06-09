@@ -7,12 +7,15 @@
 //
 
 #import "ZZCAppDelegate.h"
+#import "ZZCViewController.h"
 
 @implementation ZZCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ZZCViewController new]];
+    [self.window makeKeyWindow];
     return YES;
 }
 
